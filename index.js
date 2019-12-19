@@ -25,7 +25,6 @@ app.get('/', function (req, res) {
         dis = "0";
     }
     res.send(dis);
-    console.log(dis + "----http://133b068a.ngrok.io-------" + req.params.id);
 });
 
 app.listen(3004, function () {
